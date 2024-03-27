@@ -138,7 +138,7 @@ const Room = () => {
                               <textarea
                                   ref={textarea}
                                   onKeyDown={handleEnterPressed}
-                                  placeholder='type your message here'
+                                  placeholder='Type your message here ...'
                                   className='w-full h-10 p-2 rounded-md focus:outline-none'
                                   style={{ resize: 'none' }}
                               />
