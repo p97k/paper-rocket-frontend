@@ -14,7 +14,7 @@ const UserList = ({ users }: IUserList) => {
             </div>
             <div className='scroll-auto mx-4 mt-4 divide-y divide-dashed'>
                 {users?.map((user) => (
-                    <div className='p-3'>
+                    <div className='p-3' key={user.id}>
                         {user.username}
                     </div>
                 ))}
