@@ -98,7 +98,7 @@ const Room = () => {
         router.replace("/");
     }
 
-    const handleEnterPressed = (e) => {
+    const handleEnterPressed = (e: any) => {
       if (e.key === 'Enter') {
           e.preventDefault();
           sendMessage();
