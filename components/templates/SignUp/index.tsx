@@ -38,21 +38,21 @@ const SignUp = () => {
                 <CustomInput
                     type="text"
                     placeholder='username'
-                    style='p-3 mt-8 rounded-md border-2 border-grey focus:outline-none focus:border-blue'
+                    style='p-3 mt-8 rounded-md border-2 border-grey focus:outline-none focus:border-blue text-primary'
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
                 <CustomInput
                     type="email"
                     placeholder='email'
-                    style='p-3 mt-4 rounded-md border-2 border-grey focus:outline-none focus:border-blue'
+                    style='p-3 mt-4 rounded-md border-2 border-grey focus:outline-none focus:border-blue text-primary'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />
                 <CustomInput
                     type='password'
                     placeholder='password'
-                    style='p-3 mt-4 rounded-md border-2 border-grey focus:outline-none focus:border-blue'
+                    style='p-3 mt-4 rounded-md border-2 border-grey focus:outline-none focus:border-blue text-primary'
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
